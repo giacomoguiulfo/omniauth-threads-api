@@ -8,14 +8,13 @@ Gem::Specification.new do |spec|
   spec.authors = ["Giacomo Guiulfo Knell"]
   spec.email = ["giaco@hey.com"]
 
-  spec.summary = "OmniAuth strategy for the Threads API"
-  spec.description = "OmniAuth strategy for the Threads API"
+  spec.summary = "An OmniAuth strategy for the Threads API"
+  spec.description = "An OmniAuth strategy for authenticating with the Threads API (https://developers.facebook.com/docs/threads/)"
   spec.homepage = "https://github.com/giacomoguiulfo/omniauth-threads-api"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = spec.homepage
 
   gemspec = File.basename(__FILE__)
   spec.files = IO.popen(%w[git ls-files -z], chdir: __dir__, err: IO::NULL) do |ls|

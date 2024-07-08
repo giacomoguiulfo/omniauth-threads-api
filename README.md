@@ -1,7 +1,7 @@
 # Omniauth::ThreadsAPI
 
 [![Gem Version](https://badge.fury.io/rb/omniauth-threads-api.svg)](https://badge.fury.io/rb/omniauth-threads-api)
-[![Build Status](https://github.com/giacomoguiulfo/omniauth-threads-api/workflows/build/badge.svg)](https://github.com/giacomoguiulfo/omniauth-threads-api/actions)
+[![Build Status](https://github.com/giacomoguiulfo/omniauth-threads-api/actions/workflows/main.yml/badge.svg)](https://github.com/giacomoguiulfo/omniauth-threads-api/actions)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 An OmniAuth strategy for authenticating with the [Threads API](https://developers.facebook.com/docs/threads) via OAuth.
