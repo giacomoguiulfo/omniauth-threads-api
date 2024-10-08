@@ -83,7 +83,7 @@ This is an example of what the [Auth Hash](https://github.com/omniauth/omniauth/
 }
 ```
 
-The tokens stored in the `credentials` are last for 60 days and can be [refreshed](https://developers.facebook.com/docs/threads/get-started/long-lived-tokens).
+The token stored in the `credentials` lasts for 60 days and can be [refreshed](https://developers.facebook.com/docs/threads/get-started/long-lived-tokens).
 
 ## License
 
